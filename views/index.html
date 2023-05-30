@@ -4,12 +4,94 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Pagina web Básica</title>
+
+  <!--- styles css --->
+  <link rel="stylesheet" href="/css/index.css">
+
 </head>
 <body>
-  <h1>Hola Mundo</h1>
-  <h2>Esto va hacer una prueba de cambiar el texto de un botón al dar click</h2> <br>
-  <input type="submit" value="Haz click y prueba" id="miBoton"/>
+  <nav class="navbar navbar-dark bg-nabvar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/img/esfera1.png" alt="" width="30" height="24">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="d-flex justify-content-center mt-5">
+    <div class="card text-center with-card">
+      <div class="card-header">
+        Hola Mundo
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">Esto va hacer una prueba de cambiar el texto de un botón al dar click</p>
+        <input class="btn btn-primary" type="submit" value="Haz click y prueba" id="miBoton"/>
+      </div>
+      <div class="card-footer text-muted">
+        Esto es un footer
+      </div>
+    </div>
+  </section>
+  <h1></h1>
+  <h2></h2> <br>
+  
+  <footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a>
+        <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white">
+      </a>
+
+      <!-- Twitter -->
+      <a align="">
+        <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white">
+      </a>
+
+      <!-- whatsapp -->
+      <a>
+        <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+      </a>
+
+      <!-- Instagram -->
+      <a>
+        <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white">
+      </a>
+
+      <!-- Linkedin -->
+      <a>
+        <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white">
+      </a>
+      <!-- Github -->
+      <a>
+        <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
+      </a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3 bg-nabvar">
+  </div>
+  <!-- Copyright -->
+</footer>
 </body>
 </html>
 

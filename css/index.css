@@ -5,3 +5,31 @@
 .bg-nabvar{
   background: rgba(0, 0, 0, 0.796);
 }
+.text-color{
+  color: #000;
+}
+
+.text-color:hover{
+  color: white;
+}
+
+.custom-button {
+  border: none;
+  padding: 12px 24px;
+  background-color: #d1e7de;
+  transition: background-color 0.5s;
+}
+.custom-button:hover {
+  background-color: rgb(1, 122, 162);
+}
+
+.custom-button {
+  border: none;
+  padding: 12px 24px;
+  background-color: #d1e7de;
+  transition: background-color 0.5s;
+}
+.custom-button:hover {
+  background-color: rgb(5, 127, 168);
+  color: white;
+}
